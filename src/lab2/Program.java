@@ -1,3 +1,5 @@
+package lab2;
+
 import mypokemons.Buzzwole;
 import ru.ifmo.se.pokemon.Battle;
 import ru.ifmo.se.pokemon.Pokemon;
@@ -17,6 +19,11 @@ public class Program {
         b.addFoe(p2);
         b.go();
 
+
+    }
+
+    public static boolean chance(double d){
+        return d > Math.random();
 
     }
 }

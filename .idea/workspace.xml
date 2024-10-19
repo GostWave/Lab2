@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98f83063-3c37-4e56-8570-680b64a6db84" name="Changes" comment="Add jar file">
-      <change afterPath="$PROJECT_DIR$/src/mypokemons/Buzzwole.java" afterDir="false" />
+    <list default="true" id="98f83063-3c37-4e56-8570-680b64a6db84" name="Changes" comment="Add pokemon Buzzwole">
+      <change afterPath="$PROJECT_DIR$/src/mymoves/SampleMove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mymoves/buzzwole/IronHead.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab2/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mypokemons/Buzzwole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mypokemons/Buzzwole.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +42,9 @@
   "associatedIndex": 4
 }]]></component>
   <component name="ProjectId" id="2negb6zqjMMCz2SqD9HjHPLZ5iB" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -78,7 +82,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729341972110</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add pokemon Buzzwole">
+      <option name="closed" value="true" />
+      <created>1729346437625</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729346437625</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -94,17 +106,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add jar file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add jar file" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Program.java</url>
-          <line>4</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Add pokemon Buzzwole" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add pokemon Buzzwole" />
   </component>
 </project>
