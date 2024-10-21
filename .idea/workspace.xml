@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98f83063-3c37-4e56-8570-680b64a6db84" name="Changes" comment="Add pokemon Buzzwole">
-      <change afterPath="$PROJECT_DIR$/src/mymoves/SampleMove.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mymoves/buzzwole/IronHead.java" afterDir="false" />
+    <list default="true" id="98f83063-3c37-4e56-8570-680b64a6db84" name="Changes" comment="Add class IronHead(PhysicalMove for Buzzwole)">
+      <change afterPath="$PROJECT_DIR$/src/mymoves/buzzwole/HeadButt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab2/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mymoves/buzzwole/IronHead.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mypokemons/Buzzwole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mypokemons/Buzzwole.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,21 +25,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "GostWave"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;GostWave&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/GostWave/Lab2.git",
-    "accountId": "6f515747-72f9-443b-a8f7-284eddcfdbc1"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/GostWave/Lab2.git&quot;,
+    &quot;accountId&quot;: &quot;6f515747-72f9-443b-a8f7-284eddcfdbc1&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2negb6zqjMMCz2SqD9HjHPLZ5iB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -56,6 +58,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/galki/IdeaProjects/Lab2/Lib/Pokemon.jar",
     "onboarding.tips.debug.path": "C:/Users/galki/IdeaProjects/Lab2/src/Main.java",
@@ -90,7 +93,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729346437625</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add class IronHead(PhysicalMove for Buzzwole)">
+      <option name="closed" value="true" />
+      <created>1729361537068</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729361537068</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,6 +118,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add jar file" />
     <MESSAGE value="Add pokemon Buzzwole" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add pokemon Buzzwole" />
+    <MESSAGE value="Add class IronHead(PhysicalMove for Buzzwole)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add class IronHead(PhysicalMove for Buzzwole)" />
   </component>
 </project>

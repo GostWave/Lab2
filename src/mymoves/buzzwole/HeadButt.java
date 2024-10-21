@@ -6,12 +6,11 @@ import ru.ifmo.se.pokemon.PhysicalMove;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 
-public class IronHead extends PhysicalMove {
-    public IronHead(double pow, double acc){
-        super(Type.STEEL, pow, acc);
+public class HeadButt extends PhysicalMove {
+    public HeadButt(double pow, double acc){
+        super(Type.NORMAL, pow, acc);
 
     }
-
 
     @Override
     protected void applyOppEffects(Pokemon p){
@@ -22,11 +21,11 @@ public class IronHead extends PhysicalMove {
         }
 
     }
+
     @Override
     protected String describe(){
         String[] pieces = this.getClass().toString().split("\\.");
         return "does " + pieces[pieces.length-1];
 
     }
-
 }
