@@ -18,9 +18,14 @@ public class SampleMove extends PhysicalMove {
     }
 
     @Override
+    protected void applySelfEffects(Pokemon p ){
+        super.applySelfEffects(p);
+    }
+
+    @Override
     protected String describe(){
         String[] pieces = this.getClass().toString().split("\\.");
-        return "does " + pieces[pieces.length-1];
+        return "использует атаку " + pieces[pieces.length-1];
 
     }
 }
