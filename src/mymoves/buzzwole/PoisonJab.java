@@ -1,21 +1,24 @@
 package mymoves.buzzwole;
 
-
+import lab2.Program;
 import ru.ifmo.se.pokemon.Effect;
+import ru.ifmo.se.pokemon.PhysicalMove;
 import ru.ifmo.se.pokemon.Pokemon;
-import ru.ifmo.se.pokemon.SpecialMove;
 import ru.ifmo.se.pokemon.Type;
 
-public class ClearSmog extends SpecialMove {
-    public ClearSmog(double pow, double acc){
+public class PoisonJab extends PhysicalMove {
+    public PoisonJab(double pow, double acc){
         super(Type.POISON, pow, acc);
-
     }
-
     @Override
     protected void applyOppEffects(Pokemon p){
         super.applyOppEffects(p);
-        p.restore();
+
+        if (Program.chance(0.3)){
+            Effect.poison(p);
+
+
+        }
     }
 
     @Override

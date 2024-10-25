@@ -1,7 +1,9 @@
 package mypokemons;
 
 
+import mymoves.buzzwole.ClearSmog;
 import mymoves.buzzwole.HeadButt;
+import mymoves.buzzwole.PoisonJab;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 
@@ -12,8 +14,11 @@ public class Buzzwole extends Pokemon {
         super.setStats(107,139,139,53,53,79);
 
         HeadButt headButt = new HeadButt(80,100);
+        ClearSmog clearSmog = new ClearSmog(50,0);
+        PoisonJab poisonJab = new PoisonJab(80,100);
 
-        setMove(headButt);
+        setMove(poisonJab,headButt,clearSmog);
+
 
 
     }
