@@ -1,27 +1,27 @@
-package mymoves.buzzwole;
+package mymoves.SpecialMoves;
 
+import lab2.Program;
+import ru.ifmo.se.pokemon.*;
 
-import ru.ifmo.se.pokemon.Effect;
-import ru.ifmo.se.pokemon.Pokemon;
-import ru.ifmo.se.pokemon.SpecialMove;
-import ru.ifmo.se.pokemon.Type;
-
-public class ClearSmog extends SpecialMove {
-    public ClearSmog(double pow, double acc){
-        super(Type.POISON, pow, acc);
+public class ChargeBeam extends SpecialMove {
+    public ChargeBeam(double pow, double acc){
+        super(Type.ELECTRIC, pow, acc);
 
     }
 
     @Override
     protected void applyOppEffects(Pokemon p){
         super.applyOppEffects(p);
-        p.restore();
+        
     }
 
     @Override
     protected void applySelfEffects(Pokemon p ){
         super.applySelfEffects(p);
-
+        if (Program.chance(0.7)) {
+            Effect e = new Effect().stat(Stat.SPECIAL_ATTACK, 1);
+            p.addEffect(e);
+        }
     }
 
     @Override

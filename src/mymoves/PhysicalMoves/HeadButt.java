@@ -1,4 +1,4 @@
-package mymoves.buzzwole;
+package mymoves.PhysicalMoves;
 
 import lab2.Program;
 import ru.ifmo.se.pokemon.Effect;
