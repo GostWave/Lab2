@@ -1,6 +1,7 @@
 package lab2;
 
 import mypokemons.Buzzwole;
+import mypokemons.Drilbur;
 import ru.ifmo.se.pokemon.Battle;
 import ru.ifmo.se.pokemon.Pokemon;
 
@@ -13,7 +14,7 @@ public class Program {
 
     public static void main(String[] args) {
         Battle b = new Battle();
-        Pokemon p1 = new Pokemon("Чужой", 25);
+        Drilbur p1 = new Drilbur("Drill",20);
         Buzzwole p2 = new Buzzwole("Покемончик", 20);
         b.addAlly(p1);
         b.addFoe(p2);
