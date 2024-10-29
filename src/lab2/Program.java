@@ -1,9 +1,6 @@
 package lab2;
 
-import mypokemons.Buzzwole;
-import mypokemons.Drilbur;
-import mypokemons.Excadrill;
-import mypokemons.NidoranF;
+import mypokemons.*;
 import ru.ifmo.se.pokemon.Battle;
 import ru.ifmo.se.pokemon.Pokemon;
 
@@ -19,10 +16,12 @@ public class Program {
         Buzzwole p2 = new Buzzwole("Buzz", 20);
         Excadrill p3 = new Excadrill("Ex",20);
         NidoranF p4 = new NidoranF("Nin",20);
+        Nidorina p5 = new Nidorina("Nid",20);
         b.addAlly(p1);
         b.addAlly(p3);
         b.addFoe(p2);
         b.addFoe(p4);
+        b.addFoe(p5);
 
         b.go();
 
