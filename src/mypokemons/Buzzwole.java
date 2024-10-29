@@ -18,7 +18,7 @@ public class Buzzwole extends Pokemon {
         ClearSmog clearSmog = new ClearSmog(50,0);
         PoisonJab poisonJab = new PoisonJab(80,100);
         ChargeBeam chargeBeam = new ChargeBeam(50,90);
-        setMove(poisonJab,headButt,clearSmog);
+        setMove(poisonJab,headButt,clearSmog,chargeBeam);
 
 
 

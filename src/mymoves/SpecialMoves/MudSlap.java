@@ -3,21 +3,21 @@ package mymoves.SpecialMoves;
 import lab2.Program;
 import ru.ifmo.se.pokemon.*;
 
-public class ChargeBeam extends SpecialMove {
-    public ChargeBeam(double pow, double acc){
-        super(Type.ELECTRIC, pow, acc);
-
+public class MudSlap extends SpecialMove {
+    public MudSlap(double pow, double acc){
+        super(Type.GROUND, pow, acc);
     }
 
-
+    @Override
+    protected void applyOppEffects(Pokemon p){
+        super.applyOppEffects(p);
+        Effect e = new Effect().stat(Stat.ACCURACY,-1);
+    }
 
     @Override
     protected void applySelfEffects(Pokemon p ){
         super.applySelfEffects(p);
-        if (Program.chance(0.7)) {
-            Effect e = new Effect().stat(Stat.SPECIAL_ATTACK, 1);
-            p.addEffect(e);
-        }
+
     }
 
     @Override
