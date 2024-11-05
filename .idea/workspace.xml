@@ -6,10 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="98f83063-3c37-4e56-8570-680b64a6db84" name="Changes" comment="Create move ClearSmog fpr Buzzwole">
       <changelist_data name="GostWave" email="" />
-      <change afterPath="$PROJECT_DIR$/src/mymoves/SpecialMoves/SludgeWave.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mypokemons/Nidoqueen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lab2/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab2/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mymoves/SampleMove.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

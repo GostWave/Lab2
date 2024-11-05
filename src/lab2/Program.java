@@ -2,22 +2,22 @@ package lab2;
 
 import mypokemons.*;
 import ru.ifmo.se.pokemon.Battle;
-import ru.ifmo.se.pokemon.Pokemon;
+
 
 public class Program {
 
-//    https://pokemondb.net/pokedex/buzzwole
+
 
 
 
     public static void main(String[] args) {
         Battle b = new Battle();
-        Drilbur p1 = new Drilbur("Drill",1);
-        Buzzwole p2 = new Buzzwole("Buzz", 20);
-        Excadrill p3 = new Excadrill("Ex",20);
-        NidoranF p4 = new NidoranF("Nin",20);
-        Nidorina p5 = new Nidorina("Nid",20);
-        Nidoqueen p6 = new Nidoqueen("Queen",20);
+        Drilbur p1 = new Drilbur("Dril",4);
+        Buzzwole p2 = new Buzzwole("Buzz", 1);
+        Excadrill p3 = new Excadrill("Ex",8);
+        NidoranF p4 = new NidoranF("Nin",25);
+        Nidorina p5 = new Nidorina("Nid",12);
+        Nidoqueen p6 = new Nidoqueen("Queen",1);
         b.addAlly(p1);
         b.addAlly(p3);
         b.addAlly(p5);
