@@ -1,11 +1,11 @@
 package mymoves.PhysicalMoves;
 
-import mypokemons.Buzzwole;
+
 import ru.ifmo.se.pokemon.*;
 
 public class Bulldoze extends PhysicalMove {
-    public Bulldoze(double pow, double acc) {
-        super(Type.GROUND, pow, acc);
+    public Bulldoze() {
+        super(Type.GROUND, 60,100);
     }
 
     @Override

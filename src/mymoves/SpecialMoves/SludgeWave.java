@@ -4,8 +4,8 @@ import lab2.Program;
 import ru.ifmo.se.pokemon.*;
 
 public class SludgeWave extends SpecialMove {
-    public SludgeWave(double pow, double acc) {
-        super(Type.POISON, pow, acc);
+    public SludgeWave() {
+        super(Type.POISON, 95, 100);
     }
 
     @Override

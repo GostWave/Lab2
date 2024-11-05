@@ -6,8 +6,8 @@ import ru.ifmo.se.pokemon.SpecialMove;
 import ru.ifmo.se.pokemon.Type;
 
 public class ClearSmog extends SpecialMove {
-    public ClearSmog(double pow, double acc){
-        super(Type.POISON, pow, acc);
+    public ClearSmog(){
+        super(Type.POISON, 50, 100);
 
     }
 
@@ -18,10 +18,10 @@ public class ClearSmog extends SpecialMove {
     }
 
     @Override
-    protected void applySelfEffects(Pokemon p ){
-        super.applySelfEffects(p);
-
+    protected boolean checkAccuracy(Pokemon p1, Pokemon p2){
+        return true;
     }
+
 
     @Override
     protected String describe(){

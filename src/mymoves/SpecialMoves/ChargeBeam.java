@@ -4,8 +4,8 @@ import lab2.Program;
 import ru.ifmo.se.pokemon.*;
 
 public class ChargeBeam extends SpecialMove {
-    public ChargeBeam(double pow, double acc){
-        super(Type.ELECTRIC, pow, acc);
+    public ChargeBeam(){
+        super(Type.ELECTRIC, 50, 90);
 
     }
 

@@ -1,14 +1,12 @@
 package mymoves.PhysicalMoves;
 
-import lab2.Program;
-import ru.ifmo.se.pokemon.Effect;
+
 import ru.ifmo.se.pokemon.PhysicalMove;
-import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 
 public class DoubleKick extends PhysicalMove {
-    public DoubleKick(double pow, double acc, int priority, int hits) {
-        super(Type.FIGHTING, pow, acc);
+    public DoubleKick() {
+        super(Type.FIGHTING, 30, 100, 0,2);
 
     }
 

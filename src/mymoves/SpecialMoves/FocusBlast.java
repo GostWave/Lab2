@@ -1,11 +1,11 @@
 package mymoves.SpecialMoves;
 
-import lab2.Program;
+
 import ru.ifmo.se.pokemon.*;
 
 public class FocusBlast extends SpecialMove {
-    public FocusBlast(double pow, double acc) {
-        super(Type.FIGHTING, pow, acc);
+    public FocusBlast() {
+        super(Type.FIGHTING, 120,70);
     }
 
 

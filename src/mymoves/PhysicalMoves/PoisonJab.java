@@ -7,8 +7,8 @@ import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 
 public class PoisonJab extends PhysicalMove {
-    public PoisonJab(double pow, double acc){
-        super(Type.POISON, pow, acc);
+    public PoisonJab(){
+        super(Type.POISON, 80, 100);
     }
     @Override
     protected void applyOppEffects(Pokemon p){
@@ -19,12 +19,6 @@ public class PoisonJab extends PhysicalMove {
 
 
         }
-    }
-
-    @Override
-    protected void applySelfEffects(Pokemon p ){
-        super.applySelfEffects(p);
-
     }
 
     @Override

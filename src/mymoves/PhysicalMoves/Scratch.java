@@ -3,8 +3,8 @@ package mymoves.PhysicalMoves;
 import ru.ifmo.se.pokemon.*;
 
 public class Scratch extends PhysicalMove {
-    public Scratch(double pow, double acc) {
-        super(Type.NORMAL, pow, acc);
+    public Scratch() {
+        super(Type.NORMAL, 40, 100);
     }
 
 

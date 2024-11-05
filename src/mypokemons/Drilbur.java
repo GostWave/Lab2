@@ -12,9 +12,9 @@ public class Drilbur extends Pokemon {
         super.setType(Type.GROUND);
         super.setStats(60, 85, 40, 30, 45, 68);
 
-        MudSlap mudSlap = new MudSlap(20, 100);
-        Scratch scratch = new Scratch(40, 100);
-        Bulldoze bulldoze = new Bulldoze(60,100);
+        MudSlap mudSlap = new MudSlap();
+        Scratch scratch = new Scratch();
+        Bulldoze bulldoze = new Bulldoze();
         setMove(mudSlap, scratch, bulldoze);
 
     }

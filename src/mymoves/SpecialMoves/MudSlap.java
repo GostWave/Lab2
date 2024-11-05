@@ -1,11 +1,11 @@
 package mymoves.SpecialMoves;
 
-import lab2.Program;
+
 import ru.ifmo.se.pokemon.*;
 
 public class MudSlap extends SpecialMove {
-    public MudSlap(double pow, double acc) {
-        super(Type.GROUND, pow, acc);
+    public MudSlap() {
+        super(Type.GROUND, 20, 100);
     }
 
     @Override

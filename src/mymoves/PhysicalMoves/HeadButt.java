@@ -7,8 +7,8 @@ import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 
 public class HeadButt extends PhysicalMove {
-    public HeadButt(double pow, double acc) {
-        super(Type.NORMAL, pow, acc);
+    public HeadButt() {
+        super(Type.NORMAL, 70, 100);
 
     }
 

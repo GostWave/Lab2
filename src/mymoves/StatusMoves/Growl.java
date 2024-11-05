@@ -4,8 +4,8 @@ package mymoves.StatusMoves;
 import ru.ifmo.se.pokemon.*;
 
 public class Growl extends StatusMove {
-    public Growl(double pow, double acc){
-        super(Type.NORMAL, pow, acc);
+    public Growl(){
+        super(Type.NORMAL, 0,100);
 
     }
 
