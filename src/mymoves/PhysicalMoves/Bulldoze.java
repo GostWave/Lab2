@@ -13,4 +13,10 @@ public class Bulldoze extends PhysicalMove {
         Effect e = new Effect().stat(Stat.SPEED,-1);
         p.addEffect(e);
     }
+    @Override
+    protected String describe() {
+
+        return "использует атаку Bulldoze";
+
+    }
 }

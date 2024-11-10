@@ -17,8 +17,7 @@ public class MudSlap extends SpecialMove {
 
     @Override
     protected String describe() {
-        String[] pieces = this.getClass().toString().split("\\.");
-        return "использует атаку " + pieces[pieces.length - 1];
+        return "использует атаку Mud-Slap";
 
     }
 }

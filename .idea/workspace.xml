@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98f83063-3c37-4e56-8570-680b64a6db84" name="Changes" comment="General update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mymoves/PhysicalMoves/Bulldoze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mymoves/PhysicalMoves/Bulldoze.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mymoves/PhysicalMoves/DoubleKick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mymoves/PhysicalMoves/DoubleKick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mymoves/PhysicalMoves/Facade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mymoves/PhysicalMoves/Facade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mymoves/PhysicalMoves/HeadButt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mymoves/PhysicalMoves/HeadButt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mymoves/PhysicalMoves/PoisonJab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mymoves/PhysicalMoves/PoisonJab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mymoves/PhysicalMoves/Scratch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mymoves/PhysicalMoves/Scratch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mymoves/SpecialMoves/ChargeBeam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mymoves/SpecialMoves/ChargeBeam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mymoves/SpecialMoves/ClearSmog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mymoves/SpecialMoves/ClearSmog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mymoves/SpecialMoves/FocusBlast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mymoves/SpecialMoves/FocusBlast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mymoves/SpecialMoves/MudSlap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mymoves/SpecialMoves/MudSlap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mymoves/SpecialMoves/SludgeWave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mymoves/SpecialMoves/SludgeWave.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -5,13 +5,13 @@ public class Facade extends PhysicalMove {
     public Facade(){
         super(Type.NORMAL, 70,100);
     }
-    private boolean flag = false;
+    private boolean f = false;
 
     @Override
     protected void 	applySelfEffects(Pokemon p){
         Status condition = p.getCondition();
         if (condition == Status.BURN | condition == Status.PARALYZE | condition == Status.POISON){
-            flag = true;
+            f = true;
             this.power *= 2;
         }
     }
@@ -21,7 +21,7 @@ public class Facade extends PhysicalMove {
     }
     @Override
     protected String describe(){
-        if (flag) return "горит, отравлен или парализован! Покемон использует атаку Facade с удвоенным уроном";
+        if (f) return "горит, отравлен или парализован! Покемон использует атаку Facade с удвоенным уроном";
         else return "использует атаку Facade";
     }
 }
