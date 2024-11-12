@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98f83063-3c37-4e56-8570-680b64a6db84" name="Changes" comment="General update">
-      <change beforePath="$PROJECT_DIR$/src/mymoves/PhysicalMoves/Bulldoze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mymoves/PhysicalMoves/Bulldoze.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mymoves/PhysicalMoves/DoubleKick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mymoves/PhysicalMoves/DoubleKick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mymoves/PhysicalMoves/Facade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mymoves/PhysicalMoves/Facade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mymoves/PhysicalMoves/HeadButt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mymoves/PhysicalMoves/HeadButt.java" afterDir="false" />
+    <list default="true" id="98f83063-3c37-4e56-8570-680b64a6db84" name="Changes" comment="Update">
+      <change afterPath="$PROJECT_DIR$/src/mymoves/PhysicalMoves/BuzzyBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mypokemons/Metapod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab2/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab2/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mymoves/PhysicalMoves/PoisonJab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mymoves/PhysicalMoves/PoisonJab.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mymoves/PhysicalMoves/Scratch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mymoves/PhysicalMoves/Scratch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mymoves/SpecialMoves/ChargeBeam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mymoves/SpecialMoves/ChargeBeam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mymoves/SpecialMoves/ClearSmog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mymoves/SpecialMoves/ClearSmog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mymoves/SpecialMoves/FocusBlast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mymoves/SpecialMoves/FocusBlast.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mymoves/SpecialMoves/MudSlap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mymoves/SpecialMoves/MudSlap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mymoves/SpecialMoves/SludgeWave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mymoves/SpecialMoves/SludgeWave.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,23 +64,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Program.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/galki/IdeaProjects/Lab2/lib/Pokemon.jar&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/galki/IdeaProjects/Lab2/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.Program.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/galki/IdeaProjects/Lab2/lib/Pokemon.jar",
+    "onboarding.tips.debug.path": "C:/Users/galki/IdeaProjects/Lab2/src/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "com.intellij.platform.ide.impl.presentationAssistant.PresentationAssistantConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lab2.Program" />
@@ -156,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730798033409</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Update">
+      <option name="closed" value="true" />
+      <created>1731219917950</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731219917950</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

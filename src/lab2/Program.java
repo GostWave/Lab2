@@ -26,6 +26,7 @@ public class Program {
         b.addFoe(p6);
 
 
+
         b.go();
 
 
